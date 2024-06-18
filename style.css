@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #524C42;
+}
+.container {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    background-color: #524C42;
+
+
+}
+
+.notebox {
+
+    width: 25vw;
+    height: 49vh;
+    margin: 6vh;
+    background-color: #E2DFD0;
+}
+button:hover{
+cursor:pointer;
+}
+.top {
+    width: 100%;
+    height: 4vh;
+display:flex;
+justify-content: end;
+    background-color: #7776B3;
+    border-bottom: 1px solid #FF7F3E;
+   
+}
+
+.top i {
+    height: 3vh;
+    padding: 2px 2px ;
+
+
+}
+.textwriter{
+    height:44vh;
+    width:24vw;
+    
+}
+
+.data {
+    height:100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 5px;
+
+}
+
+i {
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.add {
+    width: 7vw;
+    height: 4vh;
+    background-color: #DBB5B5;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    right: 0;
+    margin: 3px;
+}

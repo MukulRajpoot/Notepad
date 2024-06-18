@@ -1,2 +1,3 @@
 # Notepad
-write your notes and save with the using local storage
+# write your notes .
+# And save with the using local storage.
